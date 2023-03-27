@@ -1,3 +1,10 @@
+# Configurar interface de rede Linux
+
+1 - Acesse o arquivo de acordo com o nome da Interface de Rede 
+```sh
+vi /etc/sysconfig/network-scripts/ifcfg-*IFACE*
+```
+
 ```sh
 TYPE="Ethernet"
 PROXY_METHOD="none"
