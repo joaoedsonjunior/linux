@@ -1,4 +1,4 @@
-'''sh
+```sh
 TYPE="Ethernet"
 PROXY_METHOD="none"
 BROWSER_ONLY="no"
@@ -19,4 +19,4 @@ NAME="enp0s3"
 UUID="ef0b12a8-6b0d-40b2-8fee-aa96345d9d8d"
 DEVICE="enp0s3"
 ONBOOT="yes"
-'''
+```
