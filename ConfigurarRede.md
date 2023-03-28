@@ -2,9 +2,10 @@
 
 1 - Acesse o arquivo de acordo com o nome da Interface de Rede 
 ```sh
-vi /etc/sysconfig/network-scripts/ifcfg-*IFACE*
+vi /etc/sysconfig/network-scripts/ifcfg-IFACE
 ```
 
+2 - Edite as informações de IP, GW, MASK,DNS
 ```sh
 TYPE="Ethernet"
 PROXY_METHOD="none"
@@ -26,4 +27,9 @@ NAME="enp0s3"
 UUID="ef0b12a8-6b0d-40b2-8fee-aa96345d9d8d"
 DEVICE="enp0s3"
 ONBOOT="yes"
+```
+
+3 - Reiniciar o NetworkManager
+```sh
+systemctl restart NetworkManager
 ```
