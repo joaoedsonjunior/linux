@@ -10,4 +10,9 @@ systemctl get-default
 systemctl set-default multi-user.target
 ```
 
+3 - Fazer reboot para aplicar as configurações
+```sh
+systemctl reboot
+```
+
 ### OBS.: Para desfazer é só setar a interface gráfica novamente
